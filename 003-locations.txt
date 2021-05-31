@@ -1,0 +1,21 @@
+Generate a list of locations with descriptions for the following story idea:
+
+The world has been at war with an unknown enemy for years. A group of soldiers goes on a mission deep into enemy territory. No one is ever really prepared for what they'll find.
+
+LOCATIONS:
+
+- The war zone
+- The forest
+- The mountain
+- The village
+
+DESCRIPTIONS:
+
+- The war zone: 
+- "The war zone is a place where there is never a moment of silence. The air is filled with the sound of bombs falling and guns firing. The ground is littered with bodies of those killed in battle."
+- The forest: 
+- "The forest is not a place you would want to be during a war. It has been hit by bombs many times and it is home to some of the most dangerous creatures."
+- The mountain: 
+- "The mountain is a place of solitude and peace, where the world can be forgotten for a moment."
+- The village: 
+- "The village is a place where people live in peace. They are unaware of the war happening so close by."
