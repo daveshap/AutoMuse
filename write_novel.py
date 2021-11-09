@@ -32,7 +32,7 @@ def save_file(fullpath, content):
         outfile.write(content)
 
 
-def completion(prompt, engine, temp=0.5, top_p=0.95, tokens=400, freq_pen=0.75, pres_pen=0.75, stop=['<<END>>']):
+def completion(prompt, engine, temp=0.7, top_p=1.0, tokens=400, freq_pen=0.75, pres_pen=0.75, stop=['\n\n']):
     try:
         print('\n\nPROMPT:', prompt)
         response = openai.Completion.create(
@@ -65,17 +65,13 @@ if __name__ == '__main__':
             exit(0)
         summaries = load_files(summary_dir)
         summary = " ".join(summaries)
-        #print('\n\nSUMMARY:', summary)
         last_prose = load_files(novel_dir)[-1]
-        #print('\n\nLAST CHUNK:', last_prose)
-        with open('C:/AutoMuse/mainprompt.txt', 'r', encoding='utf-8') as infile:
+        with open('C:/AutoMuse/mainprompt2.txt', 'r', encoding='utf-8') as infile:
             prompt = infile.read().replace('<<SUMMARY>>', summary).replace('<<NOVEL>>', last_prose)
         next_prose = completion(prompt, 'davinci-instruct-beta')
-        #print('\n\nNEXT CHUNK:', next_prose)
-        with open('C:/AutoMuse/summaryprompt.txt', 'r', encoding='utf-8') as infile:
+        with open('C:/AutoMuse/summaryprompt2.txt', 'r', encoding='utf-8') as infile:
             prompt = infile.read().replace('<<CHUNK>>', next_prose)
         new_summary = completion(prompt, 'davinci-instruct-beta')
-        #print('\n\nNEXT SUMMARY:', new_summary)
         filename = next_filename()
         save_file(novel_dir + filename, next_prose)
         save_file(summary_dir + filename, new_summary)
