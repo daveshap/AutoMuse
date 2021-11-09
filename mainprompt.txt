@@ -1,10 +1,16 @@
-Write a novel.
-Genre: Epic science fiction space opera
-Style: Mythic, like Frank Herbert's Dune or Tolkien's Silmarillion
-Premise: An object, the Obelisk, has been found in deep space on a route between the Milky Way and Andromeda galaxies. The object is a giant diamond in shape, but of unknown material and origin. This story follows several perspectives as they wrangle with the truth of the Obelisk. Religious orders claim it, as to scientific and governmental agencies.
+Continue writing a novel based on the summary and last chunk.
 
-Summary of the story so far: <<SUMMARY>>
+Example 1
+Summary: Frodo met Gandalf in the Shire and they talked about Bilbo's upcoming party. They rode in Gandalf's wagon back to Bilbo's house. Bilbo had his party but then disappeared with a magic ring.
+Last chunk: He walked briskly back to his hole, and stood for a moment listening with a smile to the din in the pavilion and to the sounds of merrymaking in other parts of the field. Then he went in. He took off his party clothes, folded up and wrapped in tissue-paper his embroidered silk waistcoat, and put it away. Then he put on quickly some old untidy garments, and fastened round his waist a worn leather belt. On it he hung a short sword in a battered black-leather scabbard. From a locked drawer, smelling of moth-balls, he took out an old cloak and hood. They had been locked up as if they were very precious, but they were so patched and weatherstained that their original colour could hardly be guessed: it might have been dark green. They were rather too large for him. He then went into his study, and from a large strong-box took out a bundle wrapped in old cloths, and a leather-bound manuscript; and also a large bulky envelope. The book and bundle he stuffed into the top of a heavy bag that was standing there, already nearly full. Into the envelope he slipped his golden ring, and its fine chain, and then sealed it, and addressed it to Frodo. At first he put it on the mantelpiece, but suddenly he removed it and stuck it in his pocket. At that moment the door opened and Gandalf came quickly in.
+Continuation: ‘Hullo!’ said Bilbo. 'I wondered if you would turn up.’
+'I am glad to find you visible,’ replied the wizard, sitting down in a chair, 'I wanted to catch you and have a few final words. I suppose you feel that everything has gone off splendidly and according to plan?’
+‘Yes, I do,’ said Bilbo. "Though that flash was surprising: it quite startled me, let alone the others. A little addition of your own, I suppose?’
+It was. You have wisely kept that ring secret all these years, and it seemed to me necessary to give your guests something else that would seem to explain your sudden vanishment.’
+‘And would spoil my joke. You are an interfering old busybody,’ laughed Bilbo, ‘but I expect you know best, as usual.’
+‘I do - when I know anything. But I don’t feel too sure about this whole affair. It has now come to the final point. You have had your joke, and alarmed or offended most of your relations, and given the whole Shire something to talk about for nine days, or ninety-nine more likely. Are you going any further?’
 
-Last chunk of story: <<NOVEL>>
-
-Continue writing the novel:
+Example 2
+Summary: <<SUMMARY>>
+Last chunk: <<NOVEL>>
+Continuation:

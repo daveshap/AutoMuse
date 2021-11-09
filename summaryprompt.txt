@@ -1,4 +1,4 @@
-Summarize the following passage into a single sentence:
+Write a concise summary of the following excerpt:
 <<CHUNK>>
 
-Single sentence summary:
+Concise summary:

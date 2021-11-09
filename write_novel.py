@@ -32,7 +32,7 @@ def save_file(fullpath, content):
         outfile.write(content)
 
 
-def completion(prompt, engine, temp=0.3, top_p=0.95, tokens=400, freq_pen=0.5, pres_pen=0.5, stop=['<<END>>']):
+def completion(prompt, engine, temp=0.5, top_p=0.95, tokens=400, freq_pen=0.75, pres_pen=0.75, stop=['<<END>>']):
     try:
         print('\n\nPROMPT:', prompt)
         response = openai.Completion.create(
@@ -61,7 +61,7 @@ if __name__ == '__main__':
         # 4) Generate next prose block, save it
         # 5) Generate summary of new prose block, save it
         counter += 1
-        if counter >=2:
+        if counter >=5:
             exit(0)
         summaries = load_files(summary_dir)
         summary = " ".join(summaries)
