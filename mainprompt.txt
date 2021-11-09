@@ -1,0 +1,10 @@
+Write a novel.
+Genre: Epic science fiction space opera
+Style: Mythic, like Frank Herbert's Dune or Tolkien's Silmarillion
+Premise: An object, the Obelisk, has been found in deep space on a route between the Milky Way and Andromeda galaxies. The object is a giant diamond in shape, but of unknown material and origin. This story follows several perspectives as they wrangle with the truth of the Obelisk. Religious orders claim it, as to scientific and governmental agencies.
+
+Summary of the story so far: <<SUMMARY>>
+
+Last chunk of story: <<NOVEL>>
+
+Continue writing the novel:

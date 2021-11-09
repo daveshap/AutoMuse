@@ -1,0 +1,4 @@
+Summarize the following passage into a single sentence:
+<<CHUNK>>
+
+Single sentence summary:
