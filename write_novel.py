@@ -32,7 +32,7 @@ def save_file(fullpath, content):
         outfile.write(content)
 
 
-def completion(prompt, engine, temp=0.7, top_p=1.0, tokens=400, freq_pen=0.75, pres_pen=0.75, stop=['\n\n']):
+def completion(prompt, engine, temp=0.7, top_p=1.0, tokens=400, freq_pen=0.75, pres_pen=0.75, stop=['Summary:', 'Last few lines:', 'Write a long continuation of the above story:', 'Detailed summary:']):
     try:
         print('\n\nPROMPT:', prompt)
         response = openai.Completion.create(

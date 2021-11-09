@@ -1,7 +1,11 @@
 The following is a summary of a novel so far. Read the summary and continue the story.
 
-Summary: <<SUMMARY>>
+Summary:
 
-Last few lines: <<NOVEL>>
+<<SUMMARY>>
+
+Last few lines:
+
+<<NOVEL>>
 
 Write a long continuation of the above story:
