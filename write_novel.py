@@ -61,7 +61,7 @@ if __name__ == '__main__':
         # 4) Generate next prose block, save it
         # 5) Generate summary of new prose block, save it
         counter += 1
-        if counter >=5:
+        if counter >=10:
             exit(0)
         summaries = load_files(summary_dir)
         summary = " ".join(summaries)
@@ -75,5 +75,5 @@ if __name__ == '__main__':
         filename = next_filename()
         save_file(novel_dir + filename, next_prose)
         save_file(summary_dir + filename, new_summary)
-        whole_novel = " ".join(load_files(novel_dir))
+        whole_novel = "\n  ".join(load_files(novel_dir))
         save_file('C:/AutoMuse/novel.txt', whole_novel)
